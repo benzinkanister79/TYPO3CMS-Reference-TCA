@@ -1133,6 +1133,7 @@ maxitems
          .. note::
 
             Property maxitems is ignored if `renderType`_ `selectSingle` is set.
+            To select multiple Items, change the field from 'int(11) DEFAULT '0' NOT NULL,' to 'varchar(255) DEFAULT '' NOT NULL' in the ext_tables.sql
 
    Scope
          Display / Proc
